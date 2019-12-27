@@ -1,3 +1,8 @@
+# sfdx-flow-formfactor-helper-lwc
+Lightning Web Components which determines the form factor in which it is executing, and will (optionally) automatically navigate. This allows Flows to be designed with the form factor in mind. Does a Flow not (yet) support running in a Mobile (=small) form factor? You can show a descent message to the user. 
+
+![](demo.gif)
+
 # Salesforce App
 
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
