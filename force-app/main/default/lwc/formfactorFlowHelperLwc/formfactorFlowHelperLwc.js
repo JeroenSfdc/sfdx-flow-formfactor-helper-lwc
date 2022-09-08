@@ -21,9 +21,9 @@ export default class FormfactorFlowHelperLwc extends LightningElement {
         this.setFormFactor();
         // Workaround for Winter '23
         if (this.autoNavigate) {
-					 setTimeout(() => {
-						  this.navigate();						
-			   	}, 0)
+           setTimeout(() => {
+               this.navigate();						
+           }, 0)
         }
     }
 
